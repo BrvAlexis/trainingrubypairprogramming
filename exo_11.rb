@@ -1,24 +1,8 @@
-# puts "Votre age ?:"
-# age = gets.chomp.to_i
 
-# age = 0
-# age_now = 2024 - year_of_birth
+puts "Votre age ?:"
+current_age = gets.chomp.to_i
 
-# age_now.times do 
-#     puts "Il y a #{year_of_birth} ans" "Vous avez: #{age} ans"
-#     year_of_birth += 1
-#     age = age +1
-# end
-
-
-puts "Votre année de naissance?:"
-age = gets.chomp.to_i
-
-age = 0
-age_now = 2024 - year_of_birth
-
-age_now.times do 
-    puts "#{age_now}" "Vous avez: #{age} ans"
-    year_of_birth += 1
-    age = age +1
+current_age.times do |i|
+    puts "Il y a #{current_age - i} ans vous aviez: #{i} ans"
+    
 end
